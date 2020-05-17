@@ -1,0 +1,78 @@
+{
+	  "metadata": {
+		"id": {
+		  "id": "FPO"
+		},
+		"source": {
+		  "client": {
+			"id": "f9999999"
+		  },
+		  "requestOrigin": {
+			"channelType": "INTERNET"
+		  }
+		}
+	  },
+	  "requestType": "AUTHORIZATION",
+	  "requestDetails": {
+		"paymentData": {
+		  "payments": {},
+		  "transactionDetails": {
+			"originatingSystemName": "THE-REFERENCE-APP",
+			"transactionPrice": {},
+			"reservationDetails": {
+			  "reservationNumber": "1000000",
+			  "numberOfNights": 0
+			}
+		  }
+		},
+		"fraudDescriptor": {
+		  "fraudParameters": [
+			{
+			  "parameters": [
+				{
+				  "name": "email_address",
+				  "value": "DCL.Test.BSM@disney.com"
+				}
+			  ],
+			  "parameterGroupName": "identification_info"
+			},
+			{
+			  "parameters": [
+				{
+				  "name": "day_phone",
+				  "value": "5557541158"
+				}
+			  ],
+			  "parameterGroupName": "billing_info"
+			},
+			
+			{
+			  "parameters": [
+				{
+				  "name": "guest_name",
+				  "value": "MOUSE null MINNIE"
+				},
+				{
+				  "name": "guest_age",
+				  "value": "25.0"
+				}
+			  ],
+			  "parameterGroupName": "guest_detail"
+			},
+			{
+			  "parameters": [
+				{
+				  "name": "guest_name",
+				  "value": "SNOW null WHITE"
+				},
+				{
+				  "name": "guest_age",
+				  "value": "18.0"
+				}
+			  ],
+			  "parameterGroupName": "guest_detail"
+			}
+		  ]
+		}
+	  }
+	} 
