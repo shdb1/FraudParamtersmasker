@@ -37,7 +37,7 @@ public class Parser {
 				}
 			}
 			// write output
-			mapper.writeValue(new File("./resources/input/output.json"), jsonDataObject);
+			mapper.writeValue(new File("./resources/output/output.json"), jsonDataObject);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
